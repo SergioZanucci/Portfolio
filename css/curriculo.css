@@ -113,6 +113,58 @@ h2 {
     color: #22D4FD;
 }
 
+@media (max-width: 575px) {
+    body {
+        background-color: var(--cor-rodape);
+    }
+
+    .cabecalho__menu {
+       display: flex;
+       flex-direction: column;
+       gap: 35px;
+       
+    }
+
+    .cabecalho__menu__link{
+        font-size: 1.9rem;
+    }
+
+    .apresentacao {
+       display: flex;
+    }
+
+   /* .apresentacao__conteudo {
+        gap: 4rem;
+    }
+
+   /* .apresentacao__titulo {
+        
+    }*/
+
+
+    .rede__link {
+        width: 250px;
+        }
+
+    .foto {
+        width: 80%;
+    }
+
+    .rodape {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+
+    .rodape__desenvolvedor {
+        font-size: 1.2rem;
+    }
+
+    .link__alura {
+        font-size: 1.2rem;
+    } 
+}
+
 @media (max-width: 1250px) {
 
     .cabecalho {
