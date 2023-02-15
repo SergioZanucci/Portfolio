@@ -50,7 +50,6 @@ body {
     gap: 82px;
 }
 
-
 .apresentacao__conteudo {
     width: 50%;
     display: flex;
@@ -66,7 +65,7 @@ body {
  
  .apresentacao__paragrafo {
      font-family: var(--fonte-secundaria);
-     font-size: 1.9rem;
+     font-size: 1.7rem;
      line-height: 36px;
  }
 
@@ -85,15 +84,14 @@ body {
     top: 15rem;
 }
 
-
 .rodape__desenvolvedor {
     color: var(--cor-rodape);
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
 }
 
 .link__alura {
     color: var(--cor-rodape);
+    
     font-size: 1.5rem;
     text-decoration: none;
 }
@@ -121,25 +119,8 @@ body {
     }
 
     .cabecalho__menu__link{
-        font-size: 1.9rem;
+        font-size: 1.8rem;
     }
-
-    .apresentacao {
-       display: flex;
-    }
-
-   /* .apresentacao__conteudo {
-        gap: 4rem;
-    }
-
-   /* .apresentacao__titulo {
-        
-    }*/
-
-
-    .rede__link {
-        width: 250px;
-        }
 
     .foto {
         width: 80%;
@@ -152,11 +133,12 @@ body {
     }
 
     .rodape__desenvolvedor {
-        font-size: 1.2rem;
+        font-family: var(--fonte-secundaria);
+        font-weight: 600;
     }
 
     .link__alura {
-        font-size: 1.2rem;
+        font-weight: 600;
     } 
 }
 
