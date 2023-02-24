@@ -93,12 +93,15 @@ h2 {
 .rodape__desenvolvedor {
     color: var(--cor-rodape);
     font-family: var(--fonte-secundaria);
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.5rem;
+    
 }
 
 .link__alura {
     color: var(--cor-rodape);
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
     font-size: 1.5rem;
     text-decoration: none;
 }
@@ -148,11 +151,15 @@ h2 {
     }
 
     .rodape__desenvolvedor {
-        font-size: 1.2rem;
+        font-family: var(--fonte-secundaria);
+        font-weight: 600;
+        font-size: 1.5rem;
     }
 
     .link__alura {
+        font-family: var(--fonte-secundaria);
         font-weight: 600;
+        font-size: 1.5rem;
     } 
 }
 
